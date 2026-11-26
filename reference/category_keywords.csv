@@ -1,0 +1,63 @@
+keyword,category,priority
+PHARMACY,Health & Pharmacy,10
+PHARMACIES,Health & Pharmacy,10
+OPTICS,Health & Pharmacy,10
+CLINIC,Health & Pharmacy,10
+HOSPITAL,Health & Pharmacy,10
+LAB,Health & Pharmacy,20
+HYPER,Grocery & Supermarkets,10
+SUPERMARKET,Grocery & Supermarkets,10
+MARKET,Grocery & Supermarkets,20
+GROCERY,Grocery & Supermarkets,10
+MART,Grocery & Supermarkets,20
+COFFEE,Food & Dining,10
+CAFE,Food & Dining,10
+RESTAURANT,Food & Dining,10
+PIZZA,Food & Dining,10
+BURGER,Food & Dining,10
+GRILL,Food & Dining,10
+BAKERY,Food & Dining,10
+JUICE,Food & Dining,20
+FUEL,Fuel & Automotive,10
+PETROL,Fuel & Automotive,10
+GAS,Fuel & Automotive,20
+AUTO,Fuel & Automotive,20
+MOTORS,Fuel & Automotive,10
+TIRES,Fuel & Automotive,10
+JEWELLERY,Jewelry & Luxury,10
+JEWELRY,Jewelry & Luxury,10
+WATCHES,Jewelry & Luxury,10
+GOLD,Jewelry & Luxury,20
+ELECTRONICS,Electronics & Appliances,10
+MOBILE,Electronics & Appliances,20
+APPLIANCES,Electronics & Appliances,10
+COMPUTER,Electronics & Appliances,10
+TELECOM,Telecom & Utilities,10
+UTILITIES,Telecom & Utilities,10
+ELECTRIC,Telecom & Utilities,20
+WATER,Telecom & Utilities,20
+HOTEL,Travel & Hospitality,10
+RESORT,Travel & Hospitality,10
+TOURS,Travel & Hospitality,10
+TRAVEL,Travel & Hospitality,10
+AIRLINES,Travel & Hospitality,10
+AIR,Travel & Hospitality,30
+BOOKING,Travel & Hospitality,20
+FASHION,Fashion & Apparel,10
+BOUTIQUE,Fashion & Apparel,10
+SHOES,Fashion & Apparel,10
+APPAREL,Fashion & Apparel,10
+WEAR,Fashion & Apparel,20
+PHARMA,Health & Pharmacy,20
+GYM,Fitness & Wellness,10
+FITNESS,Fitness & Wellness,10
+SPA,Fitness & Wellness,20
+SALON,Fitness & Wellness,20
+SCHOOL,Education,10
+ACADEMY,Education,10
+UNIVERSITY,Education,10
+COURSES,Education,20
+BOOKS,Education,20
+CINEMA,Entertainment,10
+STREAMING,Digital & Streaming,10
+NETFLIX,Digital & Streaming,10

@@ -1,0 +1,27 @@
+
+SEGMENTATION JUSTIFICATION
+==========================
+
+We defined three customer segments based on total debit spend (monetary),
+using percentile-based thresholds to handle the highly right-skewed
+distribution (mean = EGP 228K, median = EGP 95K, ratio = 2.4x).
+
+Thresholds:
+- VIP        = top 20%  (monetary >= 80th percentile)
+- Mass       = middle 50% (monetary between 30th and 80th percentiles)
+- Low-Value  = bottom 30% (monetary < 30th percentile)
+
+Why percentiles? Fixed EGP cutoffs would break if new data shifts the
+spending baseline. Percentiles adapt to the data distribution and ensure
+stable segment sizes regardless of seasonal or macroeconomic changes.
+
+The 20/50/30 split follows the Pareto principle: our VIPs (20% of customers)
+drive 71% of total debit volume (EGP 774M out of EGP 1.08B), while
+Low-Value customers (30% of the base) contribute only 4% of volume.
+This makes the segments actionable for partnership scoring and BNPL targeting.
+
+Validation: Despite segmenting on monetary alone, the groups show strong
+separation on recency (VIP avg 13 days vs Low-Value 29 days), frequency
+(VIP 35 txns vs Low-Value 14 txns), and outlier ratio (VIP 30% vs Low-Value 6%),
+confirming that the tiers represent genuine behavioral archetypes, not
+just arbitrary spend bins.
